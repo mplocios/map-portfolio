@@ -6,13 +6,15 @@ const coreSkills = [
   { name: "React.js / Next.js", level: 90 },
   { name: "TypeScript / JavaScript", level: 90 },
   { name: "PHP (Laravel)", level: 80 },
+  { name: "Python", level: 75 },
   { name: "MongoDB / SQL / RDBMS", level: 85 },
   { name: "AWS / Docker / DevOps", level: 80 },
 ];
 
 const techTags = [
   "JavaScript", "TypeScript", "Node.js", "Fastify", "Express.js", "React.js", "Next.js",
-  "PHP", "Laravel", "Phaser 3", "MongoDB", "PostgreSQL", "MySQL",
+  "Vue.js", "AngularJS", "PHP", "Laravel", "Python", "Phaser 3", "PixiJS",
+  "MongoDB", "PostgreSQL", "MySQL", "MSSQL",
   "Redis", "Socket.IO", "WebSocket", "GraphQL", "REST APIs",
   "Docker", "AWS (S3, RDS)", "BytePlus (ECS)", "Git/GitHub", "CI/CD",
   "Tailwind CSS", "Material UI", "Framer Motion",

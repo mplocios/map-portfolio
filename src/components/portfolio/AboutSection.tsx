@@ -3,9 +3,9 @@ import { useRef, useEffect, useState } from "react";
 import { Code2, Briefcase, Rocket, Users } from "lucide-react";
 
 const stats = [
-  { icon: Briefcase, value: 5, suffix: "+", label: "Years Experience" },
-  { icon: Rocket, value: 10, suffix: "+", label: "Projects Delivered" },
-  { icon: Code2, value: 15, suffix: "+", label: "Technologies" },
+  { icon: Briefcase, value: 6, suffix: "+", label: "Years Experience" },
+  { icon: Rocket, value: 12, suffix: "+", label: "Projects Delivered" },
+  { icon: Code2, value: 20, suffix: "+", label: "Technologies" },
   { icon: Users, value: 3, suffix: "", label: "Companies" },
 ];
 
@@ -65,10 +65,10 @@ const AboutSection = () => {
           transition={{ duration: 0.7, delay: 0.2 }}
           className="text-muted-foreground text-center max-w-3xl mx-auto mb-16 text-lg leading-relaxed"
         >
-          I'm a full-stack developer from Laguna, Philippines, with a strong
-          focus on building high-performance web and mobile applications. I
+          I'm a full-stack developer with a BS in Information Technology. I
           specialize in JavaScript/TypeScript ecosystems and have extensive
-          experience with real-time systems, payment integrations, and scalable
+          experience building high-traffic platforms with real-time systems,
+          payment integrations, identity verification, and scalable cloud
           architecture.
         </motion.p>
 

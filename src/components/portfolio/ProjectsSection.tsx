@@ -2,16 +2,23 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { ExternalLink } from "lucide-react";
 import memoraImg from "@/assets/memora-orbs.png";
-import megaperyaImg from "@/assets/megaperya-logo.png";
 
 const projects = [
+  {
+    title: "CoreBridge",
+    role: "Full-Stack Developer",
+    description: "Game aggregator platform consolidating multiple providers into a unified API system. Built standardized integration layers, session handling, wallet/transaction flows, and provider callback processing for seamless onboarding.",
+    tech: ["Python", "Node.js", "TypeScript", "REST APIs", "PostgreSQL", "WebSocket"],
+    image: null,
+    color: "from-amber-500/20 to-orange-500/20",
+  },
   {
     title: "MemoraOrbs",
     role: "Founder & Full-Stack Developer",
     description: "NFC-based digital memory platform integrating physical NFC-enabled orbs with a web-based media platform. Built the website and backend enabling users to upload and manage personalized video memories with device-triggered video redirection.",
     tech: ["React", "Node.js", "NFC", "Media Hosting", "Cloud Infrastructure"],
     image: memoraImg,
-    color: "from-amber-500/20 to-orange-500/20",
+    color: "from-blue-500/20 to-cyan-500/20",
   },
   {
     title: "WeFund.live",
@@ -19,37 +26,29 @@ const projects = [
     description: "Web-based fundraising platform connecting projects with supporters through transparent campaign listings and reward structures. Implemented campaign browsing, contribution flows, and frontend optimization across devices.",
     tech: ["Next.js", "Node.js", "Stripe", "MongoDB", "Socket.IO"],
     image: null,
-    color: "from-blue-500/20 to-cyan-500/20",
+    color: "from-green-500/20 to-emerald-500/20",
   },
   {
-    title: "FlexRide",
-    role: "Deployment & Backend Support",
-    description: "Ride-hailing platform where I managed deployment pipelines, maintained server infrastructure, reviewed code on Git/GitHub, and performed server monitoring to ensure reliability and uptime.",
-    tech: ["Node.js", "Git/GitHub", "CI/CD", "Server Maintenance"],
+    title: "Remitify",
+    role: "Full-Stack Developer",
+    description: "Web-based remittance system supporting money transfer processing, transaction tracking, and account management. Built secure backend services for handling transactions, balances, and transfer records with data integrity.",
+    tech: ["Node.js", "TypeScript", "PostgreSQL", "React.js", "REST APIs"],
     image: null,
-    color: "from-green-500/20 to-emerald-500/20",
+    color: "from-purple-500/20 to-pink-500/20",
+  },
+  {
+    title: "EKYC Verification System",
+    role: "Full-Stack Developer",
+    description: "Electronic Know Your Customer system for automated identity verification. Integrated Amazon Rekognition for facial recognition and face-matching between ID documents and live selfies with secure onboarding workflows.",
+    tech: ["React.js", "Node.js", "AWS Rekognition", "TypeScript"],
+    image: null,
+    color: "from-red-500/20 to-yellow-500/20",
   },
   {
     title: "Clinic Appointment System",
     role: "Full-Stack Developer & Deployment Lead",
     description: "Web-based clinic appointment system with Node.js (TypeScript) backend and React.js frontend. Features appointment scheduling, patient management, notifications, and deployment on BytePlus cloud infrastructure.",
     tech: ["React.js", "Node.js", "TypeScript", "BytePlus", "CI/CD"],
-    image: null,
-    color: "from-purple-500/20 to-pink-500/20",
-  },
-  {
-    title: "Megaperya",
-    role: "Backend Developer & Integration Specialist",
-    description: "Developed and maintained backend systems using Node.js and TypeScript for secure user management. Integrated third-party casino and betting games ensuring smooth API communication and real-time gameplay.",
-    tech: ["Node.js", "TypeScript", "3rd Party APIs", "Real-time", "PostgreSQL"],
-    image: megaperyaImg,
-    color: "from-red-500/20 to-yellow-500/20",
-  },
-  {
-    title: "SBOBET Casino & Betting Games",
-    role: "Full-Stack Game Developer",
-    description: "Developed full-stack casino-style and betting game applications with reusable game components. Designed engaging 2D game mechanics using Phaser with real-time gameplay and scalable backend systems.",
-    tech: ["Phaser.js", "Canvas API", "Node.js", "WebSocket"],
     image: null,
     color: "from-indigo-500/20 to-violet-500/20",
   },
